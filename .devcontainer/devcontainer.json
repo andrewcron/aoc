@@ -1,0 +1,16 @@
+{
+  "name": "AOC Python",
+  "image": "jupyter/scipy-notebook:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install networkx sympy more-itertools z3-solver",
+  "remoteUser": "jovyan"
+}
