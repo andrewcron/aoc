@@ -7,4 +7,5 @@ package.json
 yarn.lock
 input.txt
 test.txt
+puzzle.txt
 input-*.txt
